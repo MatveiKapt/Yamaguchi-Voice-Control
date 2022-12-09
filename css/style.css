@@ -173,10 +173,10 @@
   }
 
   .description {
-    width: 1800px;
-    padding: 50px 100px;
+    width: 900px;
+    padding: 50px;
     display: grid;
-    grid-template-columns: 675px 435px 1fr;
+    grid-template-columns: /* 280px 217.5px 1fr */332px 217px 1fr;
     grid-template-rows: repeat(3, min-content);
     align-items: center;
     background-image: url(../images/background-desktop.svg);
@@ -186,8 +186,8 @@
     margin-bottom: 0;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-size: 56px;
-    line-height: 64.4px;
+    font-size: 28px;
+    line-height: 32.4px;
   }
 
   .description__text-wrapper {
@@ -196,17 +196,17 @@
   }
 
   .description__text {
-    width: 586px;
+    width: 280px;
     margin-bottom: 40px;
-    font-size: 22px;
-    line-height: 37.4px;
+    font-size: 11px;
+    line-height: 18.4px;
   }
   .description__text:last-of-type {
     margin-bottom: 0;
   }
 
   .description__girl-wrapper {
-    height: 930px;
+    height: 475px;
     grid-column: 2 / 3;
     grid-row: 1 / -1;
   }
@@ -218,23 +218,32 @@
     }
   
     100% {
-      width: 435px;
-      height: 851px;
+      width: 217.5px;
+      height: 425.2px;
       bottom: 50%;
     }
   }
 
   .description__girl {
-    width: 435px;
-    height: 851px;
+    width: 217.5px;
+    height: 425.2px;
   }
 
   .description__interface-wrapper {
-    width: 822px;
-    height: 867px;
+    position: relative;
+    width: 411px;
+    height: 433.5px;
     margin: 0;
     grid-column: 3 / -1;
     grid-row: 1 / -1;
+  }
+
+  .description__interface {
+    position: absolute;
+    left: -5px;
+    width: 421px;
+    height: 433px;
+    object-fit: contain;
   }
 
   .description__slogan-wrapper {
@@ -242,18 +251,25 @@
     grid-row: 3 / -1;
   }
 
+  .description__slogan-text {
+    margin: 0;
+    font-size: 30.5px;
+    line-height: 27.5px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
   .description__slogan-text:first-child {
-    margin-bottom: 35px;
-    font-size: 44.79px;
-    line-height: 40.31px;
+    margin-bottom: 17.5px;
+    font-size: 22.79px;
+    line-height: 20.31px;
   }
 
   .description__slogan-text:nth-child(2) {
-    padding-left: 59px;
+    padding-left: 25px;
   }
 
   .description__slogan-text-medium {
-    font-size: 61.42px;
-    line-height: 55.27px;
+    font-size: 30.5px;
+    line-height: 27.5px;
   }
 }
