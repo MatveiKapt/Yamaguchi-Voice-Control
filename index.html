@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yamaguchi Voice Control</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="page__body page-body">
+
+  <main class="page-body__main page-main">
+
+    <section class="page-main__description description">
+
+      <h1 class="description__title">Yamaguchi<br> Voice Control</h1>
+
+      <div class="description__text-wrapper">
+        <p class="description__text">Вы можете управлять программами массажа или самим креслом с помощью голосовых команд, приведённых ниже. Коснитесь кратковременно кнопки голосового управления, расположенной на левом подлокотнике, для запуска сеанса голосового управления.</p>
+        <p class="description__text">Произнесите одну из доступных команд. Если произнесённая команда распознана, вы услышите ответ и кресло приступит к выполнению запроса.</p>
+      </div>
+
+      <div class="description__girl-wrapper">
+
+        <picture>
+          <source media="(min-width: 1200px)" type="image/avif" srcset="images/girl-desktop.avif 1x, images/girl-desktop@2x.avif 2x">
+          <source media="(min-width: 1200px)" type="image/webp" srcset="images/girl-desktop.webp 1x, images/girl-desktop@2x.webp 2x">
+          <source media="(min-width: 1200px)" srcset="images/girl-desktop.png 1x, images/girl-desktop@2x.png 2x">
+          <source type="image/avif" srcset="images/girl-mobile.avif 1x, images/girl-mobile@2x.avif 2x">
+          <source type="image/webp" srcset="images/girl-mobile.webp 1x, images/girl-mobile@2x.webp 2x">
+          <img class="description__girl" 
+            src="images/girl-mobile.png" 
+            srcset="images/girl-mobile@2x.png 2x" 
+            alt="Левитирующая девушка голосовой помощник Yamaguchi">
+        </picture>
+
+        <svg class="description__girl-portal" width="195" height="62" viewBox="0 0 195 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="97.5945" cy="30.759" rx="0" ry="0" fill="black">
+            <animate attributeName="rx" values="0;20;0" dur="3"></animate>
+            <animate attributeName="ry" values="0;10;0" dur="3"></animate>
+          </ellipse>
+        </svg>
+
+      </div>
+
+      <div class="description__interface-wrapper">
+        <picture>
+          <source media="(min-width: 1200px)" type="image/avif" srcset="images/interface-desktop.avif 1x, images/interface-desktop@2x.avif 2x">
+          <source media="(min-width: 1200px)" type="image/webp" srcset="images/interface-desktop.webp 1x, images/interface-desktop@2x.webp 2x">
+          <source media="(min-width: 1200px)" srcset="images/interface-desktop.png 1x, images/interface-desktop@2x.png 2x">
+          <source type="image/avif" srcset="images/interface-mobile.avif 1x, images/interface-mobile@2x.avif 2x">
+          <source type="image/webp" srcset="images/interface-mobile.webp 1x, images/interface-mobile@2x.webp 2x">
+          <img class="description__interface" 
+          src="images/interface-mobile.png" 
+          srcset="images/interface-mobile@2x.png 2x" 
+          alt="Иллюстрация интерфейса голосового помощника Yamaguchi">
+        </picture>
+      </div>
+
+      <div class="description__slogan-wrapper">
+        <p class="description__slogan-text">Скажи<span class="description__slogan-text--small">:</span></p>
+        <p class="description__slogan-text"><span class="description__slogan-text--small">«</span>Окей<span class="description__slogan-text--small">,</span> <span class="description__slogan-text--medium">Ямагучи<span class="description__slogan-text--small">»</span></span></p>
+      </div>
+      
+    </section>
+
+  </main>
+
+</body>
+</html>
